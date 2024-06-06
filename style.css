@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'arcade';
+    src: URL('arcade.ttf') format("truetype");
+}
+body{
+    margin: 0;
+    font-family:arcade;
+    background-color: black;
+    color:white;
+}
+span{
+    
+    display: flex;
+}
+.score,.highscore{
+    font-family:arcade;
+    margin: 5px 5px;
+}
+#again{
+    font-family:arcade;
+    margin: 1vw;
+    width: 80px;
+    height: 40px;
+    font-size: larger;
+}
+.btw{
+    margin-right: 2vw;
+    text-align: center;
+}
+.number{
+    background-color: white;
+    color: black;
+    padding: 10px 50px;
+    margin-bottom: 100px ;
+}
+h1,.title{
+    font-size: 60px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+input{
+    width: 150px;
+    height: 60px;
+    background-color: transparent;
+    outline:3px solid white;
+    text-align: center;
+    font-family:arcade;
+    font-size: xx-large;
+    color: white;
+    margin-bottom: 20px;
+}
+#check{
+    font-family:arcade;
+    font-size: large;
+    margin: 0 20px ;
+    height: 40px;
+}
+.user-input{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.output{
+    font-size: larger;
+}
